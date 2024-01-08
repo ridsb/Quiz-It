@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Quiz It</title>
+    <link rel="stylesheet" href="style.css" >
+</head>
+<body>
+    <div class="quiz-container">
+        <h2>Quiz it</h2> 
+        <div class="transparent-rectangle">
+            <div id="questions">
+                <h3>Question here</h3>
+            </div>
+            <div id="options-container" class="options">
+                <button class="option" onclick="checkAnswer(0)">Option 1</button>
+                <button class="option" onclick="checkAnswer(1)">Option 2</button>
+                <button class="option" onclick="checkAnswer(2)">Option 3</button>
+            </div>
+            <button id="next" onclick="nextbtn()">Next</button>
+            
+        </div>
+        <p id="score">Score: 0</p>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
